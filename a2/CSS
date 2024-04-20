@@ -15,7 +15,7 @@ body {
   
   h1 {
     margin: 0;
-    font-family: 'Arial', sans-serif; /* Use any font from https://fontlibrary.org/ */
+    font-family: 'Arial', sans-serif; 
   }
   
   .chessboard {
@@ -23,18 +23,21 @@ body {
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 1px; 
+
   }
   
   .row {
     display: flex;
-    border-spacing: 2px; 
+    border-spacing: 1px; 
 
   }
   
   .cell {
     width: 12%;
     padding-bottom: 12%;
-    box-sizing: border-box; /* Ensure padding and border are included in the cell width */
+    box-sizing: border-box; 
+    border: 1px solid black;
+    /* Ensure padding and border are included in the cell width */
 
   }
   
@@ -43,7 +46,9 @@ body {
   }
   
   .cell:not(.dark) {
-    background-color: #F0D9B5; /* Light cell color (beige) */
+    background-color: #F0D9B5; 
+    border: 1px solid black;
+    /* Light cell color (beige) */
   }
   
   footer {
@@ -57,5 +62,7 @@ body {
   footer img {
     margin: 0 10px;
   }
+  
+  
   
   
