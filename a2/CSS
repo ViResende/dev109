@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/0e/a6/0e/0ea60e02e5dbad89e04710fab40d7b21.jpg'); /* Background image */
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Use any font from https://fontlibrary.org/ */
+  }
+  
+  .chessboard {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 1px; 
+  }
+  
+  .row {
+    display: flex;
+    border-spacing: 2px; 
+
+  }
+  
+  .cell {
+    width: 12%;
+    padding-bottom: 12%;
+    box-sizing: border-box; /* Ensure padding and border are included in the cell width */
+
+  }
+  
+  .cell.dark {
+    background-color: #8B4513; /* Dark cell color (brown) */
+  }
+  
+  .cell:not(.dark) {
+    background-color: #F0D9B5; /* Light cell color (beige) */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  footer img {
+    margin: 0 10px;
+  }
+  
+  
