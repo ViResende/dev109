@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://i.pinimg.com/736x/0e/a6/0e/0ea60e02e5dbad89e04710fab40d7b21.jpg'); /* Background image */
+    background-image: url('background_chess.png'); /* Background image */
   }
   
   header {
@@ -12,11 +12,16 @@ body {
     padding: 20px 0;
     margin-bottom: 20px;
   }
-  
+
+
   h1 {
     margin: 0;
-    font-family: 'Arial', sans-serif; 
-  }
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
   
   .chessboard {
     width: 60%;
@@ -26,31 +31,42 @@ body {
 
   }
   
-  .row {
-    display: flex;
-    border-spacing: 1px; 
-
-  }
-  
   .cell {
     width: 12%;
-    padding-bottom: 12%;
-    box-sizing: border-box; 
+    height: 50px;
+    box-sizing: border-box;
     border: 1px solid black;
     /* Ensure padding and border are included in the cell width */
-
+    padding: 0;
+  }
+  
+  .row {
+    display: flex;
+    border-spacing: 1px;
+    height: 50px; 
+  }
+  
+  /* Alternating colors for cells */
+  .row:nth-child(even) .cell:nth-child(odd) {
+    background-color:darkgray; 
+  }
+  
+  .row:nth-child(even) .cell:nth-child(even) {
+    background-color:white 
+  }
+  
+  .row:nth-child(odd) .cell:nth-child(odd) {
+    background-color:white; 
+  }
+  
+  .row:nth-child(odd) .cell:nth-child(even) {
+    background-color:darkgrey; 
   }
   
   .cell.dark {
-    background-color: #8B4513; /* Dark cell color (brown) */
+    background-color: #8B4513; 
   }
-  
-  .cell:not(.dark) {
-    background-color: #F0D9B5; 
-    border: 1px solid black;
-    /* Light cell color (beige) */
-  }
-  
+   
   footer {
     text-align: center;
     background-color: #333;
@@ -62,6 +78,7 @@ body {
   footer img {
     margin: 0 10px;
   }
+  
   
   
   
