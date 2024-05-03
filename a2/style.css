@@ -1,83 +1,78 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('background_chess.png'); /* Background image */
-  }
-  
-  header {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    margin-bottom: 20px;
-  }
-
-
-  h1 {
-    margin: 0;
-  font-family: "Briem Hand", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background_chess.png'); /* Background image */
 }
-  
-  
-  .chessboard {
-    width: 60%;
-    margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 1px; 
 
-  }
-  
-  .cell {
-    width: 12%;
-    height: 50px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    /* Ensure padding and border are included in the cell width */
-    padding: 0;
-  }
-  
-  .row {
-    display: flex;
-    border-spacing: 1px;
-    height: 50px; 
-  }
-  
-  /* Alternating colors for cells */
-  .row:nth-child(even) .cell:nth-child(odd) {
-    background-color:darkgray; 
-  }
-  
-  .row:nth-child(even) .cell:nth-child(even) {
-    background-color:white 
-  }
-  
-  .row:nth-child(odd) .cell:nth-child(odd) {
-    background-color:white; 
-  }
-  
-  .row:nth-child(odd) .cell:nth-child(even) {
-    background-color:darkgrey; 
-  }
-  
-  .cell.dark {
-    background-color: #8B4513; 
-  }
-   
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    margin-top: 20px;
-  }
-  
-  footer img {
-    margin: 0 10px;
-  }
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Briem Hand', cursive;
+}
+
+.chessboard {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 1px; 
+}
+
+.cell {
+  width: 12%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  /* Ensure padding and border are included in the cell width */
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  border-spacing: 1px;
+  height: 50px; 
+}
+
+/* Alternating colors for cells */
+.row:nth-child(even) .cell:nth-child(odd) {
+  background-color: darkgray; 
+}
+
+.row:nth-child(even) .cell:nth-child(even) {
+  background-color: white; 
+}
+
+.row:nth-child(odd) .cell:nth-child(odd) {
+  background-color: white; 
+}
+
+.row:nth-child(odd) .cell:nth-child(even) {
+  background-color: darkgrey; 
+}
+
+.cell.dark {
+  background-color: #8B4513; 
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer img {
+  margin: 0 10px;
+}
+
   
   
   
