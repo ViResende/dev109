@@ -2,19 +2,22 @@
 @import url(http://fonts.googleapis.com/css?family=Wellfleet);
 
 body {
-    background-color: ffff00;
-    color:  ffff00;
+    background-color: #ffff00;
     font-family: 'Wellfleet', times, serif;
     font-size: 150%;
     margin: 0px;
     padding: 0px;
 }
 
-#logo3 {
+ header {
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center items horizontally */
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.header-content {
+  text-align: center;
 }
 
 #teacher2 {
