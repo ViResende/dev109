@@ -15,7 +15,6 @@ body {
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center items horizontally */
   height: 100vh;
-  justify-content: center;
 }
 
 #teacher2 {
