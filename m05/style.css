@@ -3,7 +3,7 @@
 
 body {
     background-color: ffff00;
-    color: #fff;
+    color:  ffff00;
     font-family: 'Wellfleet', times, serif;
     font-size: 150%;
     margin: 0px;
@@ -15,7 +15,6 @@ body {
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Center items horizontally */
   height: 100vh;
-  text-align: center;
   justify-content: center;
 }
 
