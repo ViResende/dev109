@@ -1,3 +1,4 @@
+/* CSS for Bullseye Multiplication Table */
 @import url(http://fonts.googleapis.com/css?family=Wellfleet);
 
 body {
@@ -7,16 +8,6 @@ body {
     font-size: 150%;
     margin: 0px;
     padding: 0px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-.header-content {
-  text-align: center;
 }
 
 
@@ -42,6 +33,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 
+    margin-top: 0px;
+}
 
 
