@@ -1,10 +1,9 @@
 /* Ask user for a value */
 var userInput = prompt("Enter a number for the multiplication table:");
 
-/* Convert user input to a number */
+
 var table = parseInt(userInput);
 
-/* Check if the user input is valid */
 if (isNaN(table)) {
   alert("Invalid input. Please enter a valid number.");
 } else {
