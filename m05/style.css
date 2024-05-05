@@ -21,11 +21,12 @@ body {
 }
 
 #teacher2 {
-    margin-top: 40px; 
-    margin-right: 30px; 
+    float: right; 
+    margin: 40px 30px 0 0; 
     width: 200px; 
     height: auto; 
 }
+
 
 #blackboard {
     background-color: #425a5a;
