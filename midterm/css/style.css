@@ -99,6 +99,7 @@ footer {
     }
 }
 
+/* Styles for images and video players to maintain consistent sizing */
 .small-image, .video-player {
     width: 100%; 
     max-width: 640px; 
@@ -106,6 +107,7 @@ footer {
     display: block;
     margin: 20px auto; 
 }
+
 
 .video-description {
     text-align: center; 
