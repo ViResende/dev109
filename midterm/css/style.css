@@ -3,9 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/yellow.png');
+    background-image: url(yellow.png);
     background-size: cover; /* Cover the entire page */
-    background-position: center;
+    background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
     color:#333333;
 }
@@ -71,5 +71,51 @@ footer {
         display: block;
         text-align: center;
     }
+}
+
+
+/* Specific styles for the About page */
+.about-page {
+    background: #e2e2e2;
+}
+
+/* Specific styles for the Contact form */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.small-image {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) { 
+    .small-image {
+        width: 50%; 
+    }
+}
+
+.small-image, .video-player {
+    width: 100%; 
+    max-width: 640px; 
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+}
+
+.video-description {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+figure img {
+    width: 80%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
