@@ -1,20 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-}
-
-.slideshow-container {
-    width: 50%;
-    margin: 0 auto;
+     background-color: green;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-}
-
-.buttons {
-    margin-top: 10px;
+    width: 600px;  /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures image fits nicely within the specified dimensions */
 }
 
 button {
