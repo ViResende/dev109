@@ -6,7 +6,7 @@ var myImages = [
     "images/woman.png"
 ];
 
-var captionImages = ["game chessboard image", "recipe image woman cooking", "a math table", "Woman in tech word", "business woman"];
+var captionImages = ["Game Chessboard Image Blue", "Animation of a man cooking", " Math Table Until Number 10", "Woman in Tech Word With Virtual Reality Glasses", "Business Woman Image"];
 var index = 0;
 
 function updateImage() {
