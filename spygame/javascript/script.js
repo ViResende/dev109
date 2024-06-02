@@ -1,7 +1,7 @@
 
 const levels = [
     {
-        image: "../IMAGES/messyroom.png",
+        image: "images/messyroom.png",
         items: [
             { id: "item1", name: "Red Car", coords: "1058,477,1164,597" },
             { id: "item2", name: "Flip Flops", coords: "221,647,321,736" },
@@ -11,7 +11,7 @@ const levels = [
         ]
     },
     {
-        image: "../IMAGES/messygirl.png",
+        image: "images/messygirl.png",
         items: [
             { id: "item6", name: "Doll", coords: "29,517,176,630" },
             { id: "item7", name: "Lobster", coords: "678,832,839,682" },
