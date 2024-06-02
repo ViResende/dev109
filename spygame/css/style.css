@@ -48,6 +48,7 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     background-color: #4CAF50 !important;
     color: white !important;
