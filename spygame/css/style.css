@@ -1,1 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; 
+    margin: 0;
+    padding: 0;
+}
 
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    border: 1px solid #000;
+    max-width: 80%;
+    height: auto;  
+
+    
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
