@@ -25,33 +25,31 @@ p {
 img {
     border: 1px solid #000;
     max-width: 80%;
-    height: auto;  
+    height: auto; 
 
-    
 ul {
     list-style-type: disc; 
-    padding: 0; 
-    margin: 0; 
-    list-style-position: inside;
-    text-align: left; 
-    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside; 
+    text-align: left;
+    display: inline-block; 
 }
 
-
+/* Style for individual list items */
 li {
     font-size: 1.2em;
     margin: 5px 0; 
-    padding-left: 10px; 
+    padding-left: 10px;
 }
-
 
 button {
     padding: 10px 20px;
     font-size: 1em;
     margin-top: 20px;
     cursor: pointer;
-    background-color:  #45a049; 
-    color: white; 
+    background-color: #4CAF50; 
+    color: white;
     border: none;
     border-radius: 5px;
 }
@@ -59,5 +57,4 @@ button {
 button:hover {
     background-color: #45a049; 
 }
-
 
