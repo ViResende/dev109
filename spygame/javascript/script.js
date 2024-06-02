@@ -3,7 +3,7 @@ const levels = [
     {
         image: "images/messyroom.png",
         items: [
-            { id: "item1", name: "Red Car", coords: "1058,477,1164,597" },
+            { id: "item1", name: "Red Car Toy", coords: "1058,477,1164,597" },
             { id: "item2", name: "Flip Flops", coords: "221,647,321,736" },
             { id: "item3", name: "Math Book", coords: "101,1100,403,907" },
             { id: "item4", name: "Poster", coords: "607,37,838,268" },
