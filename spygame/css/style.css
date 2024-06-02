@@ -24,7 +24,7 @@ p {
 
 img {
     border: 1px solid #000;
-    max-width: 80%;
+    max-width: 60%;
     height: auto; 
 
 ul {
@@ -36,7 +36,7 @@ ul {
     display: inline-block; 
 }
 
-/* Style for individual list items */
+
 li {
     font-size: 1.2em;
     margin: 5px 0; 
