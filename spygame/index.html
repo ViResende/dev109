@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="I Spy Game">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Spy Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>I Spy Game</h1>
+    <p>Find the objects listed below in the image. Click on the objects in the image to cross them off the list.</p>
+    <div class="game-container">
+        <img src="../IMAGES/messyroom.png" usemap="#ispy-map" id="ispypic" alt="I Spy Image">
+        <map name="ispy-map">
+            <area target="" alt="Red Car" title="Red Car" href="#" coords="1058,477,1164,597" shape="rect" id="car">
+            <area target="" alt="Flip Flops" title="Flip Flops" href="#" coords="221,647,321,736" shape="rect" id="flipflops">
+            <area target="" alt="Math Book" title="Math Book" href="#" coords="101,1100,403,907" shape="rect" id="mathbook">
+            <area target="" alt="Poster" title="Poster" href="#" coords="607,37,838,268" shape="rect" id="poster">
+            <area target="" alt="Yellow Book" title="Yellow Book" href="#" coords="830,675,962,767" shape="rect" id="yellowbook">
+            <area target="" alt="Doll" title="Doll" href="#" coords="29,517,176,630" shape="rect" id="doll">
+            <area target="" alt="Lobster" title="Lobster" href="#" coords="678,832,839,682" shape="rect" id="lobster">
+            <area target="" alt="Hawks" title="Hawks" href="#" coords="197,137,303,214" shape="rect" id="hawks">
+            <area target="" alt="Little Gecko" title="Little Gecko" href="#" coords="525,54,632,145" shape="rect" id="gecko">
+            <area target="" alt="Small Plane" title="Small AirPlane" href="#" coords="815,443,900,509" shape="rect" id="plane">
+        </map>
+    </div>
+    <ul id="object-list">
+        <li id="item1">Red Car</li>
+        <li id="item2">Flip Flops</li>
+        <li id="item3">Math Book</li>
+        <li id="item4">Poster</li>
+        <li id="item5">Yellow Book</li>
+        <li id="item6">Doll</li>
+        <li id="item7">Lobster</li>
+        <li id="item8">Hawks</li>
+        <li id="item9">Little Gecko</li>
+        <li id="item10">Small AirPlane</li>
+    </ul>
+    <button onclick="replay()">Play Again</button>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
 
