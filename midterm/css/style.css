@@ -47,21 +47,20 @@ main {
     margin-top: 20px;
 }
 
-container {
+.container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap; /* Allow columns to wrap */
 }
 
 /* Column styling */
 .column {
     flex: 1;
-    min-width: 300px; /* Ensure columns are responsive */
+    min-width: 45%; /* Ensure columns are responsive and do not overlap */
     margin: 10px;
     background-color: #f9f9f9; /* Light background for columns */
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 /* Section styling */
 section {
