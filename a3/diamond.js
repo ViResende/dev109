@@ -7,8 +7,7 @@ function createRhombus() {
 
     let rhombus = '';
     const rhombusDisplay = document.getElementById('rhombusDisplay');
-    rhombusDisplay.innerHTML = '';  // Clear previous rhombus
-
+    rhombusDisplay.innerHTML = '';  
     
     function generateLine(spaces, count) {
         let line = '';
