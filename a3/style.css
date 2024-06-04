@@ -5,8 +5,9 @@ label, select, input {
     margin-bottom: 10px;
     display: block;
 }
-#rhombusDisplay p {
+#rhombusDisplay pre {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 5px;
+    white-space: pre;
 }
