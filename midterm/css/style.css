@@ -1,22 +1,9 @@
-/* General Body Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../images/yellow.png');
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; 
-    color:#333333;
-}
-
 /* Header Styles */
 header {
     background-color: #70d4b4;
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
-    
 }
 
 /* Navigation Menu Styles */
@@ -47,25 +34,9 @@ main {
     margin-top: 20px;
 }
 
-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-/* Column styling */
-.column {
-    flex: 1;
-    min-width: 300px; /* Ensure columns are responsive */
-    margin: 10px;
-    background-color: #f9f9f9; /* Light background for columns */
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 /* Section styling */
 section {
-    background-color:  #aaaaaa;
+    background-color: #aaaaaa;
     border: 1px solid #d59bf6;
     padding: 15px;
     margin-bottom: 20px;
@@ -76,9 +47,8 @@ section {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color:  #70d4b4; 
+    background-color: #70d4b4;
     color: #fff;
-    
 }
 
 /* Responsive styling */
@@ -88,7 +58,6 @@ footer {
         text-align: center;
     }
 }
-
 
 /* Specific styles for the About page */
 .about-page {
@@ -109,31 +78,181 @@ footer {
     height: auto;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .small-image {
-        width: 50%; 
+        width: 50%;
     }
 }
 
 /* Styles for images and video players to maintain consistent sizing */
 .small-image, .video-player {
-    width: 100%; 
-    max-width: 640px; 
+    width: 100%;
+    max-width: 640px;
     height: auto;
     display: block;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 
-
 .video-description {
-    text-align: center; 
-    margin: 20px 0; 
+    text-align: center;
+    margin: 20px 0;
 }
 
 figure img {
-    width: 80%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Styles for the Validation Results page */
+.validation-results .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow columns to wrap */
+}
+
+.validation-results .column {
+    flex: 1;
+    min-width: 45%; /* Ensure columns are responsive and do not overlap */
+    margin: 10px;
+    background-color: #f9f9f9; /* Light background for columns */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styling specific to the Validation Results page */
+@media (max-width: 600px) {
+    .validation-results .container {
+        flex-direction: column;
+    }
+}
+/* Header Styles */
+header {
+    background-color: #70d4b4;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for nav links */
+nav ul li a:hover {
+    color: #c7d92c;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Section styling */
+section {
+    background-color: #aaaaaa;
+    border: 1px solid #d59bf6;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px #ffffff;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #70d4b4;
+    color: #fff;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Specific styles for the About page */
+.about-page {
+    background: #e2e2e2;
+}
+
+/* Specific styles for the Contact form */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.small-image {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .small-image {
+        width: 50%;
+    }
+}
+
+/* Styles for images and video players to maintain consistent sizing */
+.small-image, .video-player {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.video-description {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for the Validation Results page */
+.validation-results .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow columns to wrap */
+}
+
+.validation-results .column {
+    flex: 1;
+    min-width: 45%; /* Ensure columns are responsive and do not overlap */
+    margin: 10px;
+    background-color: #f9f9f9; /* Light background for columns */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styling specific to the Validation Results page */
+@media (max-width: 600px) {
+    .validation-results .container {
+        flex-direction: column;
+    }
+}
