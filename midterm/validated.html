@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Results</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Inline styles specific to validated.html */
+        .validation-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .validation-column {
+            flex: 1;
+            min-width: 45%;
+            margin: 10px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,8 +40,8 @@
     </header>
     
     <main>
-        <div class="container">
-            <div class="column">
+        <div class="validation-container">
+            <div class="validation-column">
                 <h2>HTML</h2>
                 <figure>
                     <img src="images/home.png" alt="Index Document">
@@ -52,19 +68,15 @@
                     <figcaption>Creative Page</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/contact.png" alt="contact Document">
+                    <img src="images/contact.png" alt="Contact Document">
                     <figcaption>Contact Page</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/thanks.png" alt="Thankyou Document">
-                    <figcaption>ThankYou Page</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/thanks.png" alt="Validate Document">
-                    <figcaption>Validated Page</figcaption>
+                    <img src="images/thanks.png" alt="Thank You Document">
+                    <figcaption>Thank You Page</figcaption>
                 </figure>
             </div>
-            <div class="column">
+            <div class="validation-column">
                 <h2>CSS</h2>
                 <figure>
                     <img src="images/cssvalidated.png" alt="CSS Validation Result">
@@ -78,3 +90,4 @@
     </footer>
 </body>
 </html>
+
