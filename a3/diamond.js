@@ -1,28 +1,33 @@
-function createRhombus() {
-    const height = parseInt(document.getElementById('rHeight').value, 10);
-    const colorEven = document.getElementById('colorEven').value;
-    const colorOdd = document.getElementById('colorOdd').value;
-    const symbol = document.getElementById('symbol').value;
-    const display = document.getElementById('rhombusDisplay');
-    display.innerHTML = '';
-
+function createRhombus(size) {
+    let rhombus = '';
     
-    for (let i = 0; i < height; i++) {
+  
+    for (let i = 0; i < size; i++) {
         let line = '';
-        for (let j = 0; j <= i; j++) {
-            const color = j % 2 === 0 ? colorOdd : colorEven;
-            line += `<span style="color:${color};">${symbol}</span>`;
+        for (let j = 0; j < size - i - 1; j++) {
+            line += ' ';
         }
-        display.innerHTML += `<p>${line}</p>`;
+        for (let k = 0; k < 2 * i + 1; k++) {
+            line += '*';
+        }
+        rhombus += line + '\n';
     }
 
-    
-    for (let i = height - 2; i >= 0; i--) {
+   
+    for (let i = size - 2; i >= 0; i--) {
         let line = '';
-        for (let j = 0; j <= i; j++) {
-            const color = j % 2 === 0 ? colorOdd : colorEven;
-            line += `<span style="color:${color};">${symbol}</span>`;
+        for (let j = 0; j < size - i - 1; j++) {
+            line += ' ';
         }
-        display.innerHTML += `<p>${line}</p>`;
+        for (let k = 0; k < 2 * i + 1; k++) {
+            line += '*';
+        }
+        rhombus += line + '\n';
     }
+
+    return rhombus;
 }
+
+// Display the rhombus
+let size = 5;
+console.log(createRhombus(size));
