@@ -6,8 +6,8 @@ const levels = [
             { id: "item1", name: "Red Car Toy", coords: "1058,497,1187,595" },
             { id: "item2", name: "Flip Flops", coords: "221,648,314,723" },
             { id: "item3", name: "Math Book", coords: "80,1087,430,925" },
-            { id: "item4", name: "Poster", coords: "833,695,966,763" },
-            { id: "item5", name: "Yellow Book", coords: "830,675,962,767" }
+            { id: "item4", name: "Poster", coords: "607,27,842,277" },
+            { id: "item5", name: "Yellow Book", coords: "833,695,966,763" }
         ]
     },
     {
