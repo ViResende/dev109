@@ -7,7 +7,7 @@ body {
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
-    color:#333333;
+    color: #333333;
 }
 
 /* Header Styles */
@@ -57,9 +57,13 @@ section {
 
 /* Specific class for the welcome section */
 .welcome-section {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     background-color: transparent;
     border: none;
     box-shadow: none;
+    max-width: 300px;
 }
 
 /* Footer styling */
