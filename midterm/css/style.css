@@ -120,3 +120,8 @@ figure img {
     display: block; 
     margin: 0 auto; 
 }
+
+.tenor-gif-embed {
+    max-width: 300px; /
+    margin: 0 auto;
+}
