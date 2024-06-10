@@ -3,16 +3,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/id.png');
+    background-image: url('../images/yellow.png');
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
-    color: #3333;
+    color: #333333;
 }
 
 /* Header Styles */
 header {
-    background-color: #668ba4;
+    background-color: #596e79;
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #AAAAAA
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ main {
 
 /* Section styling */
 section {
-    background-color: #aaaaaa;
+    background-color:  #c7b198;
     border: 1px solid #d59bf6;
     padding: 15px;
     margin-bottom: 20px;
@@ -57,12 +57,11 @@ section {
 
 /* Specific class for the welcome section */
 .welcome-section {
-    position: absolute;
-    top: 10px; /* Move the section up */
-    left: 20px;
+    position: absolute; /* Changed to absolute to position it freely */
+    top: 20px; /* Adjust as needed to move the section up */
+    left: 20px; /* Position it at the left side */
     background-color: transparent;
     border: none;
-    box-shadow: none;
     max-width: 300px;
 }
 
@@ -79,7 +78,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color:  #668ba4;
+    background-color:  #596e79; 
     color: #fff;
 }
 
