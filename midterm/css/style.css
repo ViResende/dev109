@@ -62,12 +62,6 @@ section {
     background-color: transparent;
     border: none;
     max-width: 300px;
-}
-
-/* Specific class for the Tenor GIF */
-.tenor-gif-embed {
-    max-width: 300px; /* Adjust the max-width as needed */
-    margin: 0 auto;
     border-radius: 15px; /* Add border radius */
     overflow: hidden; /* Ensure the rounded corners are respected */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
@@ -134,4 +128,5 @@ figure img {
     display: block; 
     margin: 0 auto; 
 }
+
 
