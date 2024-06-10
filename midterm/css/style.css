@@ -57,7 +57,7 @@ section {
 
 /* Specific class for the welcome section */
 .welcome-section {
-    margin-top: 10px; /* Adjust as needed to move the section up */
+    margin-top: 30px; /* Adjust as needed to move the section up */
     margin-left: 20px; /* Position it at the left side */
     background-color: transparent;
     border: none;
