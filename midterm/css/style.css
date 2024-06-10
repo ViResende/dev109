@@ -7,12 +7,12 @@ body {
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
-    color: #333333;
+    color: #3333;
 }
 
 /* Header Styles */
 header {
-    background-color: #70d4b4;
+    background-color:  #ececec; 
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
@@ -79,7 +79,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color: #70d4b4; 
+    background-color:  #385170;
     color: #fff;
 }
 
