@@ -65,7 +65,6 @@ section {
     line-height: 1.5; /* Ensure paragraphs within sections have adequate line-height */
 }
 
-/* Specific class for the welcome section */
 .welcome-section {
     margin-top: -30px; /* Adjust as needed to move the section up */
     margin-left: 20px; /* Position it at the left side */
