@@ -37,10 +37,10 @@ nav ul li a {
     display: inline-block;
     padding: 12px; /* Ensures a minimum size of 44x44px */
     min-width: 44px; /* Ensures the width is at least 44px */
-    min-height: 44px; /* Ensures the height is at least 44px */
-    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+    min-height: 44px; 
+    box-sizing: border-box; 
     text-align: center;
-    vertical-align: middle; /* Centers the text vertically */
+    vertical-align: middle;
     line-height: 1.5;
 }
 
@@ -62,7 +62,7 @@ section {
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px #ffffff;
-    line-height: 1.5; /* Ensure paragraphs within sections have adequate line-height */
+    line-height: 1.5; 
 }
 
 .welcome-section {
@@ -72,9 +72,9 @@ section {
     background-color: transparent;
     border: none;
     max-width: 300px;
-    border-radius: 15px; /* Add border radius */
-    overflow: hidden; /* Ensure the rounded corners are respected */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* Footer styling */
